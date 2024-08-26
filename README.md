@@ -4,7 +4,7 @@
 
 ## ダウンロード
 ```
-git clone git@github:remokasu/WikiDiffReporter.git
+git clone git@github.com:remokasu/WikiDiffReporter.git
 ```
 
 ## Pythonバージョン
