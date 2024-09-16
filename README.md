@@ -1,6 +1,6 @@
 
 ## WikiDiffReporter
-指定したWikipediaのページとユーザー名に基づいて、そのユーザーがそのページに対して行った編集内容を取得し、差分をHTML形式で出力するスクリプトです。
+指定したWikipediaの記事のURLとユーザー名に基づいて、そのユーザーがその記事に対して行った編集内容を取得し、差分をHTML形式で出力するスクリプトです。
 
 ## ダウンロード
 ```
@@ -17,7 +17,7 @@ pip install requests jinja2
 
 ## 使い方
 ```
-python diff.py -url https://ja.wikipedia.org/wiki/ページ名 -user ユーザー名
+python diff.py -url https://ja.wikipedia.org/wiki/記事名 -user ユーザー名
 ```
 
 結果がhtmlファイルとして出力されます。
